@@ -168,7 +168,7 @@ def train(train_loader, tnet, criterion, optimizer, epoch):
         # compute output
         dista, distb, embedded_x, embedded_y, embedded_z = tnet(data1, data2, data3)
         # 1 means, dista should be larger than distb
-        target = torch.FloatTensor(dista.size()).fill_(1)
+        target = torch.FloatTensor(dista.size()).fill_(1) # 用指定的数值value = 1填充
         if args.cuda:
             target = target.cuda()
         target = Variable(target)
