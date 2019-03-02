@@ -10,7 +10,7 @@ import codecs
 import numpy as np
 import csv
 
-
+# 
 class MNIST_t(data.Dataset):
     urls = [
         'http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz',
