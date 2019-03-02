@@ -3,7 +3,7 @@ This repository contains a [Pytorch](http://pytorch.org/) implementation for tri
 ## 1.运行环境
 - 系统：window或linux
 
-- 软件：python 3.6，pytorch 1.0
+- 软件：python 3.6.5，pytorch 1.0
 
 ## 2.数据集
 - 本项目使用Mnist数据集
